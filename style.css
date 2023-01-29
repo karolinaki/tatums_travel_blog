@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    red,
+    orange,
+    rgb(202, 228, 53),
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  color: whitesmoke;
+  text-shadow: 4px 0.1px 5px black;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a {
+  color: azure;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: dashed overline underline blue;
+}
+img {
+  height: 500px;
+  border: lightseagreen;
+}
+.subheading {
+  border-bottom: solid 5px gold;
+}
+header,
+img,
+article {
+  border-radius: 0.75em;
+  box-shadow: 0.75em 1em 3em blue;
+}
